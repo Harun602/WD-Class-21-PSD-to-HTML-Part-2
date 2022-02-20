@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{}
+.wrapper .hero-section{
+    background: #fcdb00;
+    padding-top: 55px;
+    padding-bottom: 220px;
+}
+.wrapper .hero-section .header{}
+.wrapper .hero-section .header .menu-icon{}
+.wrapper .hero-section .header .menu-icon a{
+    color: black;
+}
+.wrapper .hero-section .header .menu-icon a i{}
+
+.wrapper .hero-section .header .logo{}
+.wrapper .hero-section .header .logo a{}
+.wrapper .hero-section .header .logo a img{
+    display: block;
+    margin: auto;
+}
+
+
+.wrapper .hero-section .header .social-media-icon{}
+.wrapper .hero-section .header .social-media-icon ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.wrapper .hero-section .header .social-media-icon ul li{
+    background: black;
+    padding:5px;
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .hero-section .header .social-media-icon ul li:last-child{
+    margin-right: 0px;
+}
+.wrapper .hero-section .header .social-media-icon ul li a{
+    color:#fcdb00;
+}
+.wrapper .hero-section .header .social-media-icon ul li a i{
+    
+}
+
+
+
+.wrapper .hero-section .hero-content{
+    text-align: center;
+    padding-top: 210px;
+}
+.wrapper .hero-section .hero-content h1{
+    padding-bottom: 25px;
+}
+.wrapper .hero-section .hero-content p{}
+.wrapper .hero-section .hero-content .apps-icon{}
+.wrapper .hero-section .hero-content .apps-icon ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.wrapper .hero-section .hero-content .apps-icon ul li{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .hero-section .hero-content .apps-icon ul li a{
+    font-size: 20px;
+    color: black;
+}
+.wrapper .hero-section .hero-content .apps-icon ul li a i{}
+
+
+/* -------------------------------------------
+-------------- FEATURED SECTION -------------- 
+---------------------------------------------*/
+.featured-section{
+    padding: 124px 0px;
+}
+.featured-section .featured-heading{
+    text-align: center;
+    padding: 0px 15%;
+    padding-bottom: 68px;
+}
+.featured-section .featured-heading h2{
+    font-size: 32px;
+}
+.featured-section .featured-heading p{}
+
+
+.featured-section .featured-content{}
+.featured-section .featured-content .single-featured{
+    padding: 32px 0px;
+}
+.featured-section .featured-content img{
+    display: block;
+    margin: auto;
+}
+.featured-section .featured-content .single-featured h3{
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.featured-section .featured-content .single-featured p{}
+
+
+
+/* -------------------------------------------
+-------------- FOOTER SECTION -------------- 
+---------------------------------------------*/
+
+.footer-section{
+    padding-top: 100px;
+    padding-bottom: 207px;
+    background: #000;
+}
+.footer-section .footer-heading{
+    text-align: center;
+    padding: 0px 15%;
+    padding-bottom:30px;
+}
+.footer-section .footer-heading h2{
+    color: #fcdb00;
+}
+.footer-section .footer-heading p{
+    color: #898989;
+}
+
+
+.footer-section .footer-input{
+    padding: 0px 15%;
+    padding-bottom: 109px;
+}
+.footer-section .footer-input input{
+    margin-right: 10px;
+    border-radius:4px !important;
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.footer-section .footer-input input::placeholder{
+    font-size: 13px;
+    position: relative;
+    top: -2px;
+}
+.footer-section .footer-input button{
+    padding: 0px 15px;
+    background: #fcdb00;
+    border: none;
+    border-radius:4px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+.footer-section .footer-menu{}
+.footer-section .footer-menu p{
+    margin: 0px;
+    color: #fff;
+}
+.footer-section .footer-menu ul{
+    list-style: none;
+}
+.footer-section .footer-menu ul li{}
+.footer-section .footer-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}

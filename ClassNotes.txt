@@ -1,0 +1,7 @@
+
+
+How to export an image from photoshop
+
+(1) alt + eyeball e click kora
+(2) image > trim
+(3) save as png
